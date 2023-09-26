@@ -1,5 +1,8 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import { ipcRenderer } from "electron";
+import HelloWorld from "./components/HelloWorld.vue";
+console.log(ipcRenderer);
+console.log(232);
 </script>
 
 <template>
